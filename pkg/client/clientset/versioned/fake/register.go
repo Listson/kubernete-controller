@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	samplecontrollerv1 "github.com/lx/my-controller/pkg/apis/samplecontroller/v1"
+	samplecontrollerv1 "github.com/lx/kubernete-controller/pkg/apis/samplecontroller/v1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

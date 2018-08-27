@@ -19,7 +19,7 @@ limitations under the License.
 package fake
 
 import (
-	v1 "github.com/lx/my-controller/pkg/client/clientset/versioned/typed/samplecontroller/v1"
+	v1 "github.com/lx/kubernete-controller/pkg/client/clientset/versioned/typed/samplecontroller/v1"
 	rest "k8s.io/client-go/rest"
 	testing "k8s.io/client-go/testing"
 )

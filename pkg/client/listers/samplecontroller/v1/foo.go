@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	v1 "github.com/lx/my-controller/pkg/apis/samplecontroller/v1"
+	v1 "github.com/lx/kubernete-controller/pkg/apis/samplecontroller/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	"k8s.io/apimachinery/pkg/labels"
 	"k8s.io/client-go/tools/cache"

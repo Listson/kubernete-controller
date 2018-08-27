@@ -21,7 +21,7 @@ package externalversions
 import (
 	"fmt"
 
-	v1 "github.com/lx/my-controller/pkg/apis/samplecontroller/v1"
+	v1 "github.com/lx/kubernete-controller/pkg/apis/samplecontroller/v1"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
 )

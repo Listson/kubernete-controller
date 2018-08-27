@@ -19,8 +19,8 @@ limitations under the License.
 package samplecontroller
 
 import (
-	internalinterfaces "github.com/lx/my-controller/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/lx/my-controller/pkg/client/informers/externalversions/samplecontroller/v1"
+	internalinterfaces "github.com/lx/kubernete-controller/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/lx/kubernete-controller/pkg/client/informers/externalversions/samplecontroller/v1"
 )
 
 // Interface provides access to each of this group's versions.

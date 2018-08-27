@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/lx/my-controller/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/lx/my-controller/pkg/client/informers/externalversions/internalinterfaces"
-	samplecontroller "github.com/lx/my-controller/pkg/client/informers/externalversions/samplecontroller"
+	versioned "github.com/lx/kubernete-controller/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/lx/kubernete-controller/pkg/client/informers/externalversions/internalinterfaces"
+	samplecontroller "github.com/lx/kubernete-controller/pkg/client/informers/externalversions/samplecontroller"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

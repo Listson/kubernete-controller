@@ -20,7 +20,7 @@ package versioned
 
 import (
 	glog "github.com/golang/glog"
-	samplecontrollerv1 "github.com/lx/my-controller/pkg/client/clientset/versioned/typed/samplecontroller/v1"
+	samplecontrollerv1 "github.com/lx/kubernete-controller/pkg/client/clientset/versioned/typed/samplecontroller/v1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"

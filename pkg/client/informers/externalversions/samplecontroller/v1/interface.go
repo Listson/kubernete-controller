@@ -19,7 +19,7 @@ limitations under the License.
 package v1
 
 import (
-	internalinterfaces "github.com/lx/my-controller/pkg/client/informers/externalversions/internalinterfaces"
+	internalinterfaces "github.com/lx/kubernete-controller/pkg/client/informers/externalversions/internalinterfaces"
 )
 
 // Interface provides access to all the informers in this group version.

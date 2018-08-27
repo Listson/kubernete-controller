@@ -19,8 +19,8 @@ limitations under the License.
 package v1
 
 import (
-	v1 "github.com/lx/my-controller/pkg/apis/samplecontroller/v1"
-	scheme "github.com/lx/my-controller/pkg/client/clientset/versioned/scheme"
+	v1 "github.com/lx/kubernete-controller/pkg/apis/samplecontroller/v1"
+	scheme "github.com/lx/kubernete-controller/pkg/client/clientset/versioned/scheme"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

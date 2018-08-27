@@ -21,10 +21,10 @@ package v1
 import (
 	time "time"
 
-	samplecontroller_v1 "github.com/lx/my-controller/pkg/apis/samplecontroller/v1"
-	versioned "github.com/lx/my-controller/pkg/client/clientset/versioned"
-	internalinterfaces "github.com/lx/my-controller/pkg/client/informers/externalversions/internalinterfaces"
-	v1 "github.com/lx/my-controller/pkg/client/listers/samplecontroller/v1"
+	samplecontroller_v1 "github.com/lx/kubernete-controller/pkg/apis/samplecontroller/v1"
+	versioned "github.com/lx/kubernete-controller/pkg/client/clientset/versioned"
+	internalinterfaces "github.com/lx/kubernete-controller/pkg/client/informers/externalversions/internalinterfaces"
+	v1 "github.com/lx/kubernete-controller/pkg/client/listers/samplecontroller/v1"
 	meta_v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"
